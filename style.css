@@ -271,3 +271,42 @@ nav ul li a{
     align-items: center;
      
 }
+
+/* Footer Section */
+.footer_section{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icon{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 120px;
+}
+
+.social_icon ul{
+    list-style: none;
+}
+
+.social_icon ul li{
+    display: inline;      
+}
+.social_icon ul li a{
+    color: #fff;      
+}
+
+.footer_text{
+    text-align: center;
+    color: #fff;
+    padding-top:30px;
+    margin-top: 80px;
+    border-top: 1px solid #41604e;
+}
+
+
+
