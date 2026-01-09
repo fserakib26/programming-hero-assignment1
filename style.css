@@ -225,3 +225,49 @@ nav ul li a{
     /* background-color:#30B868 ; */
     color: #30B868 ;
 }
+
+/* Early Access Section */
+.early_access_section{
+    background-color: #F7F6F2;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 120px 120px 120px;
+    padding: 80px 40px;
+}
+
+.early_access_section h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;    
+}
+
+.early_access_section p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;     
+}
+.early_access_section button{
+    margin-bottom: 16px;    
+}
+
+.early_access_section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}
+
+.early_access_section ul li{
+    color: #627382;
+     
+}
+
+.early_access_section ul li i{
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
