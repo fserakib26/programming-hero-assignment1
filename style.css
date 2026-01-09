@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    box-sizing: border-box;
+}
 /* For Inter Font */
 
 .font_inter{
@@ -110,18 +114,21 @@ nav ul li a{
 
 /* Notes Section */
 .notes_section{
-    background-color: #FFFFFF;
+    background-color: whitesmoke;
     padding: 0 120px;
 }
 
 .note_title{
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .note_title h1{
     color: #001931;
     font-size: 48px;
     font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 .note_title p{
@@ -131,7 +138,38 @@ nav ul li a{
 
 .cards{
     display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 24px;
+    margin-top: 44px;
+    
+     
 }
-.cards img{
+
+.card{
+    text-align: center;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 100px 40px 0;
+    margin: 0 auto;
+    width: 25%;
+    background-color: white;
+}
+.card img{
     background-color: #F95555;
+    padding: 16px;
+    border-radius: 50px;    
 }
+
+.card h2{
+   margin-top: 20px;
+   font-size: 24px;
+   font-weight: 600;    
+}
+.card p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+
+/* Second Brain Section */
