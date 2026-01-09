@@ -9,9 +9,6 @@
   font-optical-sizing: auto;
 }
 
-header{
-    /* border: 1px solid red; */
-}
 
 nav{
     display: flex;
@@ -110,3 +107,31 @@ nav ul li a{
     justify-content: center;
 }
 
+
+/* Notes Section */
+.notes_section{
+    background-color: #FFFFFF;
+    padding: 0 120px;
+}
+
+.note_title{
+    text-align: center;
+}
+
+.note_title h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.note_title p{
+    color: #627382;
+    font-size: 16px
+}
+
+.cards{
+    display: flex;
+}
+.cards img{
+    background-color: #F95555;
+}
