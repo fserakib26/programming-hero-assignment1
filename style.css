@@ -48,6 +48,7 @@ nav ul li a{
     border-radius: 5px;
 }
 
+
 .btn2{
     background-color: #ffff;
     color: #469165;
@@ -308,5 +309,25 @@ nav ul li a{
     border-top: 1px solid #41604e;
 }
 
+/* The End */
+
+/* Button Hover Efect */
+.btn1:hover{    
+    background-color: #aff4cb;
+    color: black;    
+}
+
+
+.btn2:hover{
+    background-color: #aff4cb;
+    color: black;      
+}
+
+.btn3:hover{
+    background-color: #aff4cb;
+    color: black; 
+}
+
+/* yes finally Done. Thanks god and programming hero */
 
 
